@@ -1,0 +1,66 @@
+{
+    "name": "fits-admin-ui",
+    "version": "1.0.1",
+    "description": "FitsAdminUI是根据element plus进行二次开发的组件库",
+    "author": {
+        "name": "caoguanjie",
+        "email": "374348532@qq.com",
+        "url": "https://github.com/caoguanjie"
+    },
+    "main": "libs/fits-admin-ui.umd.js",
+    "module": "libs/fits-admin-ui.es.js",
+    "style": "libs/style.css",
+    "types": "libs/index.d.ts",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./libs/fits-admin-ui.es.js",
+            "require": "./libs/fits-admin-ui.umd.js"
+        },
+        "./*": "./*"
+    },
+    "license": "MIT",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/caoguanjie/fits-admin-ui.git"
+    },
+    "scripts": {
+        "dev": "vuepress dev docs",
+        "build": "vuepress build docs",
+        "build:ui": "vite build",
+        "dev:open": "vuepress dev docs --open",
+        "build:lib": "vite build --config ./lib.config.ts"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.14",
+        "@vuepress/plugin-register-components": "2.0.0-beta.35",
+        "@vuepress/plugin-search": "2.0.0-beta.35",
+        "@vueuse/core": "7.5.5",
+        "chokidar": "3.5.3",
+        "ityped": "1.0.3",
+        "less": "4.1.3",
+        "less-loader": "11.0.0",
+        "unocss": "0.28.1",
+        "unplugin-auto-import": "0.5.11",
+        "unplugin-vue-components": "0.17.15",
+        "vite-plugin-dts": "^1.4.1",
+        "vite-plugin-inspect": "0.3.13",
+        "vuepress": "2.0.0-beta.35",
+        "vuepress-plugin-demoblock-plus": "1.5.1"
+    },
+    "dependencies": {
+        "element-plus": "2.2.12",
+        "vite": "2.8.6"
+    },
+    "engines": {
+        "node": ">= 16"
+    },
+    "keywords": [
+        "vue3",
+        "vite",
+        "component",
+        "ui",
+        "typescript"
+    ]
+}
