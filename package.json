@@ -1,6 +1,6 @@
 {
     "name": "fits-admin-ui",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "FitsAdminUI是根据element plus进行二次开发的组件库",
     "author": {
         "name": "caoguanjie",
@@ -54,7 +54,7 @@
         "vite": "2.8.6"
     },
     "engines": {
-        "node": ">= 16"
+        "node": ">= 14"
     },
     "keywords": [
         "vue3",

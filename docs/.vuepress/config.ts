@@ -32,8 +32,8 @@ export default defineUserConfig({
 				link: '/components/'
 			},
 			{
-				text: 'Gitee',
-				link: 'https://gitee.com/name/repo'
+				text: 'GitHub',
+				link: 'https://github.com/caoguanjie/fits-admin-ui.git'
 			},
 		]
 	},

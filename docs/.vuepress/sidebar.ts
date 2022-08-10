@@ -3,6 +3,7 @@
 const SidebarConfig = {
     '/guide/': [
         {
+            text: '基础',
             collapsible: true,
             children: ['/guide/quickstart']
         },
